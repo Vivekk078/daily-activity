@@ -19,8 +19,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "Vivekk078"
+          git config user.email "pantvivek098@gmail.com"
           git add dailylog.txt
           git commit -m "Daily automated commit" || echo "No changes"
           git push
